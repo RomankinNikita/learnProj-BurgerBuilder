@@ -1,0 +1,47 @@
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  transition: all .2s ease-in-out;
+}
+
+.button.success:hover {
+  border-color: #5C9210;
+}
+
+.button.danger:hover {
+  border-color: #944317;
+}
+
+.button.option:hover {
+	border-color: #22b1dd;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  color: silver;
+}
+
+.button:disabled:hover {
+  border-color: transparent;
+}
+
+.success {
+  color: #5C9210;
+}
+
+.danger {
+  color: #944317;
+}
+
+.option {
+	color: #22b1dd;
+}

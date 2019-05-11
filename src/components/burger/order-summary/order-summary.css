@@ -1,0 +1,7 @@
+.order-capitalize {
+  text-transform: capitalize;
+}
+
+.order-summary-list {
+  list-style: none;
+}
